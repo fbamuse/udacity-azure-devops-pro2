@@ -11,7 +11,7 @@ variables:
   azureServiceConnectionId: '75b06ea0-5de1-4432-9bd8-e1d823feeceb'
   
   # Web app name
-  webAppName: 'my-service'
+  webAppName: 'my-appservice'
 
   # Agent VM image name
   vmImageName: 'ubuntu-latest'
