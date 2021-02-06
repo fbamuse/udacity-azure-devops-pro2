@@ -11,13 +11,13 @@ variables:
   azureServiceConnectionId: '75b06ea0-5de1-4432-9bd8-e1d823feeceb'
   
   # Web app name
-  webAppName: 'bamuse'
+  webAppName: 'my-service'
 
   # Agent VM image name
   vmImageName: 'ubuntu-latest'
 
   # Environment name
-  environmentName: 'bamuse'
+  environmentName: 'env'
 
   # Project root folder. Point to the folder containing manage.py file.
   projectRoot: $(System.DefaultWorkingDirectory)
