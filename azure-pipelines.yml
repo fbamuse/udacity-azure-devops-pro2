@@ -14,12 +14,12 @@ jobs:
       displayName: Login to Docker Hub
       inputs:
         command: login
-        containerRegistry: dockerhub
+        containerRegistry: docker-hub
     - task: Docker@2
       displayName: 'Build and Push'
       inputs:
         command: buildAndPush
-        containerRegistry: dockerhub
+        containerRegistry: docker-hub
         repository: fbamuse/udacity-azure-devops
         tags: latest
         Dockerfile: Dockerfile
