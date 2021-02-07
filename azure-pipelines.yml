@@ -6,7 +6,7 @@ trigger:
 - docker
 
 jobs:
-- job: docker build and push job
+- job: docker_build_and_push_job
   pool:
     vmImage: 'ubuntu-16.04'
   steps:
