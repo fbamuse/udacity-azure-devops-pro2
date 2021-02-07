@@ -20,7 +20,7 @@ jobs:
       inputs:
         command: buildAndPush
         containerRegistry: docker-hub
-        repository: fbamuse/udacity-azure-devops
+        repository: bamuse/udacity-azure-devops
         tags: latest
         Dockerfile: Dockerfile
         buildContext: .
