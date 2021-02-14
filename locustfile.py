@@ -33,6 +33,7 @@ class UserBehavior(TaskSet):
             }
         })
 
+
 class WebsiteUser(HttpUser):
     tasks = {UserBehavior:1}
     wait_time = constant(0)
