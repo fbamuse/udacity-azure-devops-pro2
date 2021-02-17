@@ -4,7 +4,8 @@ This project is demonstration the Continuous Integration and Continuous Delivery
 Continuous Integration. this repository three branch step1,step2 and step3.
 
 - branch: step1  
-  Github Action with C/I
+  Github Action with C/I  
+   ![Python application test with Github Actions](https://github.com/fbamuse/udacity-azure-devops-pro2/workflows/Python%20application%20test%20with%20Github%20Actions/badge.svg?branch=step1)
 
 - branch: step2  
   Azure build app and push AppService
@@ -57,7 +58,6 @@ Continuous Integration. this repository three branch step1,step2 and step3.
 	and work fine.
 	![](pic/2021-02-14-21-27-26.png)
 
-   ![Python application test with Github Actions](https://github.com/fbamuse/udacity-azure-devops-pro2/workflows/Python%20application%20test%20with%20Github%20Actions/badge.svg?branch=step1)
 
 2. Github integrate with Azure devops pipeline  
 
@@ -132,30 +132,23 @@ Continuous Integration. this repository three branch step1,step2 and step3.
 
 
 
-
-
-
-
-
-
-
-
-
-
-   
-
-
 ## Enhancements
 
+1. It is necessary to provide a stable response regardless of the amount of URL access. Optimal response can be provided by auto scale.
+Systems that cannot tolerate downtime need to manage containers and apply Kubernetes.
+    - Service discovery and load balancing
+    - Describe the desired state of the deployed container and change the actual state to the desired state at a controlled speed
 
-- Upgrade to autoscale and Kubernetes linked to access load
+    - Self-healing. Restart the container that failed, replace the container, and kill the container that does not respond to the defined health check.
 
-- Creating a UI that looks good and is easy to use
-- Working with the MLOps pipeline of machine learning models
+
+2. A good-looking and easy-to-use UI is essential to increase utilization
+3. The essential application quality is the prediction quality of the machine learning model.
+Collaboration between MLOps and DevOps is essential for building Predict models that respond quickly to changes in the market.
 
 
 ## Demo 
 
-<TODO: Add link Screencast on YouTube>
+https://youtu.be/-kMeT1gkaVc
 
 
