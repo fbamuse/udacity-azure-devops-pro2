@@ -1,7 +1,7 @@
 # Overview
 
 This project is demonstration the Continuous Integration and Continuous Delivery with Github Action and Azure devops.
-Continuous Integration. this repository three branch step1,step2 and step3.
+This repository has three branch step1,step2 and step3.
 
 - branch: step1  
   Github Action with C/I  
@@ -18,8 +18,8 @@ Continuous Integration. this repository three branch step1,step2 and step3.
 
 ## Project Plan
 
-* Trello board for the project
-  ![](pic/2021-02-14-23-01-24.png)
+* Trello board for the project  
+https://trello.com/b/asx6Yd5L/uda-project
 * A link to a spreadsheet that includes the original and final project plan>
   https://docs.google.com/spreadsheets/d/1xIKzw1vmUmW_91NAxOSHVHGcylxuuXhUJ8YQ1ca1Rls/edit#gid=1348135932
 
